@@ -9,6 +9,7 @@ public:
     float X;
     float Y;
     float Z;
+    Vector3D();
     Vector3D(float x, float y, float z);
     Vector3D operator+ (const Vector3D &v);
     Vector3D operator- (const Vector3D &v);

@@ -9,6 +9,7 @@ class IntVector2D
 public:
     int X;
     float Y;
+    IntVector2D();
     IntVector2D(int x, int y);
     IntVector2D operator+ (const IntVector2D &v);
     IntVector2D operator- (const IntVector2D &v);
