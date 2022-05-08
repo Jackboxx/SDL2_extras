@@ -28,6 +28,11 @@ public:
     float dot(IntVector2D vector) {return X * vector.X + Y * vector.Y;}
 };
 
+IntVector2D::IntVector2D(){
+    X = 0;
+    Y = 0;
+}
+
 IntVector2D::IntVector2D(int x, int y)
 {
     X = x;

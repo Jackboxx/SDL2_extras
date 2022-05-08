@@ -29,6 +29,12 @@ public:
     IntVector3D cross(IntVector3D vector) {return IntVector3D(Y*vector.Z - Z*vector.Y, Z*vector.X - X*vector.Z, X*vector.Y - Y*vector.X);}
 };
 
+IntVector3D::IntVector3D(){
+    X = 0;
+    Y = 0;
+    Z = 0;
+}
+
 IntVector3D::IntVector3D(int x, int y, int z)
 {
     X = x;

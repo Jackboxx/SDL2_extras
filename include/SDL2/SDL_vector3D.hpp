@@ -29,6 +29,12 @@ public:
     Vector3D cross(Vector3D vector) {return Vector3D(Y*vector.Z - Z*vector.Y, Z*vector.X - X*vector.Z, X*vector.Y - Y*vector.X);}
 };
 
+Vector3D::Vector3D(){
+    X = 0;
+    Y = 0;
+    Z = 0;
+}
+
 Vector3D::Vector3D(float x, float y, float z)
 {
     X = x;

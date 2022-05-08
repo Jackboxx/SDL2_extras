@@ -27,6 +27,11 @@ public:
     float dot(Vector2D vector) {return X * vector.X + Y * vector.Y;}
 };
 
+Vector2D::Vector2D(){
+    X = 0;
+    Y = 0;
+}
+
 Vector2D::Vector2D(float x, float y)
 {
     X = x;
